@@ -1,0 +1,33 @@
+.recomendation__item{
+    width: 540px;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.recomendation__img{
+    width: 540px;
+    height: 250px;
+}
+
+.recomendation__heading{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+}
+
+.recomendation__text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+}

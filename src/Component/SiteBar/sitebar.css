@@ -1,0 +1,136 @@
+.sitebar{
+    width: 166px;
+    margin: 0;
+    padding: 0;
+}
+
+.sitebar__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sitebar__item{
+    position: relative;
+    margin-bottom: 29px;
+    padding-left: 33px;
+}
+
+.sitebar__item:hover .sitebar__link{
+    color: #FF0000;
+}
+
+.sitebar__item:hover .sitebar__item::before{
+    fill: #FF0000;
+}
+
+.sitebar__item::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../Assets/Images/home.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0px;
+}
+
+.sitebar__item:nth-child(2)::before{
+    background-image: url(../../Assets/Images/trending.svg);
+}
+
+.sitebar__item:nth-child(3)::before{
+    background-image: url(../../Assets/Images/subscript.svg);
+}
+
+.sitebar__item:nth-child(4)::before{
+    background-image: url(../../Assets/Images/documents.svg);
+}
+
+.sitebar__item:nth-child(5)::before{
+    background-image: url(../../Assets/Images/history.svg);
+}
+
+.sitebar__item:nth-child(6)::before{
+    background-image: url(../../Assets/Images/tech.svg);
+}
+
+.sitebar__item:nth-child(7)::before{
+    background-image: url(../../Assets/Images/star.svg);
+}
+
+
+.sitebar__item:nth-child(8)::before{
+    background-image: url(../../Assets/Images/liked.svg);
+}
+
+.sitebar__item:nth-child(9)::before{
+    background-image: url(../../Assets/Images/music.svg);
+}
+
+.sitebar__item:nth-child(10)::before{
+    background-image: url(../../Assets/Images/game.svg);
+}
+
+.sitebar__item:nth-child(11)::before{
+    background-image: url(../../Assets/Images/chevron.svg);
+}
+
+.sitebar__item:nth-child(2), .sitebar__item:nth-child(11){
+    margin-bottom: 60px;
+}
+
+
+.sitebar__link{
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+}
+
+.sitebar__heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.sitebar__sublist{
+    width: 100vh;
+    margin-top: 33px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.sitebar__subitem{
+    margin-bottom: 23px;
+    padding: 0;
+}
+
+.sitebar__sublink:hover{
+    color: #FF0000;
+}
+
+.sitebar__sublink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+}
+
+.sitebar__subimg{
+    margin-right: 10px;
+}

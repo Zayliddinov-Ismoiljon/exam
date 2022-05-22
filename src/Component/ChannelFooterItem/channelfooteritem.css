@@ -1,0 +1,29 @@
+.channel-footer__item{
+    margin-right: 40px;
+    padding: 0;
+}
+
+.channel-footer__img{
+    width: 250px;
+    height: 150px;
+}
+
+.channel-footer__title{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+}
+
+.channel-footer__text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+}

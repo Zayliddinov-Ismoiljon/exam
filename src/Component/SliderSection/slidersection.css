@@ -1,0 +1,35 @@
+.slidersection__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.slidersection__img{
+    width: 250px;
+    height: 150px;
+}
+
+.slidersection__title{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+}
+
+.slidersection__text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+}
+

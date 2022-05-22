@@ -1,0 +1,47 @@
+.recomendation__title{
+    margin: 49px 0px 30px 0px;
+    padding: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.recomendation__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.recomendation__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dolice{
+    width: 205px;
+    display: flex;
+    align-items: center;
+    width: 205px;
+    margin-right: 1245px;
+}
+
+.dolice-btn{
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dolice__btn1, .dolice__btn2{
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+}

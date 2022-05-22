@@ -1,0 +1,241 @@
+.channel{
+    margin-left: 88px;
+    width: 100%;
+    padding: 0;
+}
+
+
+.channel__header{
+    width: 100%;
+    height: 280px;
+    background-image: url(../../Assets/Images/channel-bg.png);
+    background-repeat: no-repeat;
+}
+
+.channel__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.channel__imgcon, .channel__aboutbtn{
+    width: 299px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channel__aboutbtn{
+    width: 200px;
+}
+
+.channel__aboutimg{
+    width: 80px;
+    height: 80px;
+}
+
+.channel__abouttitle{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.channel__aboutbutton{
+    width: 154px;
+    padding: 10px 20px;
+    background: #FF0000;
+    border-radius: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+}
+
+.channel-menu__choos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel-menu__choosabout{
+    width: 1120px;
+    margin: 0;
+    padding: 0;
+}
+
+.channel-menu{
+    width: 834px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 54px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.channel-menu__link{
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    overflow-x: scroll;
+}
+
+.channel-menu__item{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.channel-menu__item:nth-child(6)::after{
+    position: absolute;
+    z-index: 1;
+    content: "";
+    background-image: url(../../Assets/Images/search.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: -69px;
+}
+
+
+
+.channel-menu__link:hover{
+    border-bottom: 1px solid #FF0000;
+    color: #FF0000;
+}
+
+.channel-menu__choosinfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.channel-pic{
+    width: 540px;
+    height: 250px;
+}
+
+.channel-menu__choosinfotext{
+    width: 548px;
+    align-items: center;
+}
+
+.channel-menu__choosinfotitle{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #19202C;
+}
+
+.channel-menu__choostext{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.channel-menu__choosspan{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #C2C2C2;
+}
+
+.channel-cinema__menu{
+    width: 200px;
+    margin: 0;
+    padding-right: 30px;
+}
+
+.channel-cinema__title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    margin-bottom: 30px;
+}
+
+.channel-cinema__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.channel-cinema__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.channel-cinema__span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #19202C;
+    margin-left: 20px;
+}
+
+.channel-footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.channel-footertitle{
+    margin-top: 61px;
+    margin-bottom: 30px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.channel-footerlist{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.dolice-btn{
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dolice__btn1, .dolice__btn2{
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+}

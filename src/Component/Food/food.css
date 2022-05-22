@@ -1,0 +1,78 @@
+.food-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 38px;
+    padding: 0;
+}
+
+.foodheader__inner{
+    width: 431px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dolice-btn{
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dolice__btn1, .dolice__btn2{
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+}
+
+.foodheader__about{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foodabout__btn{
+    width: 154px;
+    padding: 10px 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: #FF0000;
+    border-radius: 20px;    
+    color: #FFFFFF;
+    border: none;
+}
+
+.food__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.food__title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.foodheader__text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+}
